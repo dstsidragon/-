@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 響應式設計*/
+img{
+        max-width:100%;
+        height:auto;
+}
+a{
+    text-decoration: none;
+}
+/*從這行以下開始*/
+
+
+/*wrap*/
+.wrap{
+    width: 964px;
+    padding: 0 42px;
+}
+
+/*Menu*/
+.menuImg{
+    width: 211px;
+}
+.menuCar{
+    width: 24px;
+}
+
+/*Header*/
+.header{
+    width: 960px;
+    height: 496px;
+    object-fit:cover;
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/banner.png?raw=true);
+    
+}
+
+/*Content*/
+.contentMenu ul{
+    width: 300px;
+}
+
+.Product{
+    width: 300px;
+}
+.productImg1{
+    height: 315px;
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-1.png?raw=true);
+}
+.productImg2{
+    height: 315px;
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-2.png?raw=true);
+}
+.productImg3{
+    height: 315px;
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-3.png?raw=true);
+}
+.productImg4{
+    height: 315px;
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-4.png?raw=true);
+}
+.productImg5{
+    height: 315px;
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-5.png?raw=true);
+}
+.productImg6{
+    height: 315px;
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-6.png?raw=true);
+}
+
+.changeCar{
+    padding:16px 26px;
+}
+
+/*共用類別*/
+.container {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #EAF0ED;
+}
+
+.dpFlex-jcBetween{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.dpFlex{
+    display:flex;
+    align-items: center;
+}
+.dpFlex-jcAround{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.dpFlex-jcCenter{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.dpFlex-rowR{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.mgLift60{
+    margin-left: 60px;
+}
+.mgBottom20{
+    margin-bottom: 20px;
+}
+.mgBottom60{
+    margin-bottom: 60px;
+}
+.mgRight20{
+    margin-right: 20px;
+}
+.mgTop20{
+    margin-top: 20px;
+}
+.fcGreen{
+    color:#3F5D45;
+}
+.fcWhite{
+    color:#EAF0ED;
+}
+.fz16{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    font-family: 新細明體;
+}
+.fz20{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+    font-family: PingFang TC;
+    text-align:center;
+}
+.fz24{
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+    font-family: PingFang TC;
+    text-align:center;
+}
+.bgGreen{
+    background: #3F5D45;
+}
+
+.pd15{
+    padding: 15px;
+}
+.pd0-20{
+    padding:0 20px;
+}
+.pd14-20{
+    padding:14px 20px;
+}
+.bgGreen2{
+    background: #EAF0ED;
+}
+.F-wrap{
+ flex-wrap: wrap;
+}
+.atStart{
+    align-items: start;
+}
+.atCenter{
+    align-items: center;
+}
+
+.hot{
+    width: 16px;
+    padding: 10px;
+}
+.adpBlock{
+    display: block;
+}
+.bd1sGreen{
+    border: 1px solid #EAF0ED;
+}
+.Imgtrans{
+    padding:16px 16px;
+}
