@@ -60,7 +60,9 @@ a{
 /*wrap*/
 .wrap{
     width: 964px;
-    padding: 0 42px;
+    padding: 30px 42px;
+    margin: 0 auto;
+    border: 1px solid #EAF0ED;
 }
 
 /*Menu*/
@@ -81,6 +83,9 @@ a{
 }
 
 /*Content*/
+content{
+    max-width:960px ;
+}
 .contentMenu ul{
     width: 300px;
 }
@@ -118,12 +123,7 @@ a{
 }
 
 /*共用類別*/
-.container {
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border: 1px solid #EAF0ED;
-}
+
 
 .dpFlex-jcBetween{
     display:flex;
